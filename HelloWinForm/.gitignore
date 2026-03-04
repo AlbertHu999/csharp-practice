@@ -361,3 +361,10 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# Visual Studio 暫存資料夾
+.vs/
+
+# 編譯產生的資料夾（也不需要上傳）
+bin/
+obj/
