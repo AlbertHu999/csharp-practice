@@ -1,8 +1,8 @@
 namespace HelloWinForm
 {
-    public partial class Form1 : Form
+    public partial class HelloWinForm : Form
     {
-        public Form1()
+        public HelloWinForm()
         {
             InitializeComponent();
         }

@@ -1,6 +1,6 @@
 ﻿namespace 共用測試
 {
-    partial class Form1
+    partial class 產品價格庫存
     {
         /// <summary>
         ///  Required designer variable.

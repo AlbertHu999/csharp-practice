@@ -7,10 +7,10 @@ namespace 共用測試
         public decimal Price { get; init; }
         public int Stock { get; init; }
     }
-    public partial class Form1 : Form
+    public partial class 產品價格庫存 : Form
     {
         private List<Product> products = new();
-        public Form1()
+        public 產品價格庫存()
         {
             InitializeComponent();
         }

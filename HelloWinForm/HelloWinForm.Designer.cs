@@ -1,6 +1,6 @@
 ﻿namespace HelloWinForm
 {
-    partial class Form1
+    partial class HelloWinForm
     {
         /// <summary>
         ///  Required designer variable.
