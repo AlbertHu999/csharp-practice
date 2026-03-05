@@ -3,7 +3,7 @@ namespace 共用測試
 
     public record Product
     {
-        public string Name { get; init; }
+        public required string Name { get; init; }
         public decimal Price { get; init; }
         public int Stock { get; init; }
     }
