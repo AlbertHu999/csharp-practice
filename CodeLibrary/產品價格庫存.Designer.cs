@@ -1,4 +1,4 @@
-﻿namespace 共用測試
+﻿namespace CodeLibrary
 {
     partial class 產品價格庫存
     {

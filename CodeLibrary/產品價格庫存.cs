@@ -1,4 +1,4 @@
-namespace 共用測試
+namespace CodeLibrary
 {
 
     public record Product

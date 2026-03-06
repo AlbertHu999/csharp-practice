@@ -1,4 +1,4 @@
-namespace 成績計算器
+namespace CodeLibrary
 {
     public partial class GradeCalculator : Form
     {
@@ -100,6 +100,9 @@ namespace 成績計算器
             }
         }
 
-      
+        private void GradeCalculator_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

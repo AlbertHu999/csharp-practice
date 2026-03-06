@@ -6,7 +6,7 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 
-namespace 共用測試
+namespace CodeLibrary
 {
     public partial class SimpleCalculator : Form
     {
@@ -61,6 +61,11 @@ namespace 共用測試
         private void btnDivide_Click(object sender, EventArgs e)
         {
             calculate((a, b) => a / b, "/");
+        }
+
+        private void SimpleCalculator_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

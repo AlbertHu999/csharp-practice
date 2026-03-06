@@ -1,6 +1,5 @@
-using 成績計算器;
 
-namespace 共用測試
+namespace CodeLibrary
 {
     internal static class Program
     {
@@ -13,7 +12,7 @@ namespace 共用測試
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new 產品價格庫存());
+            Application.Run(new GradeCalculator());
         }
     }
 }

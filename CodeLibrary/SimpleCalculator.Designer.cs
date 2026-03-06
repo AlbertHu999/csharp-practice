@@ -1,4 +1,4 @@
-﻿namespace 共用測試
+﻿namespace CodeLibrary
 {
     partial class SimpleCalculator
     {
@@ -154,6 +154,7 @@
             Controls.Add(label1);
             Name = "SimpleCalculator";
             Text = "SimpleCalculator";
+            Load += SimpleCalculator_Load;
             ((System.ComponentModel.ISupportInitialize)bindingSource1).EndInit();
             ResumeLayout(false);
             PerformLayout();
