@@ -1,18 +1,19 @@
+using System.Windows.Forms;
 
 namespace CodeLibrary
 {
     internal static class Program
     {
-        /// <summary>
-        ///  The main entry point for the application.
-        /// </summary>
         [STAThread]
         static void Main()
         {
-            // To customize application configuration such as set high DPI settings or default font,
-            // see https://aka.ms/applicationconfiguration.
-            ApplicationConfiguration.Initialize();
-            Application.Run(new GradeCalculator());
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+
+            // 先顯示登入視窗，登入成功才進主畫面
+            var login = new LoginForm();
+            if (login.ShowDialog() == DialogResult.OK)
+                Application.Run(new MainForm());
         }
     }
 }

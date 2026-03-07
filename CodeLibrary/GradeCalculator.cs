@@ -20,7 +20,7 @@ namespace CodeLibrary
             string name = txtName.Text?.Trim() ?? "未輸入";
             if (!double.TryParse(txtScore1.Text, out double score1) || !double.TryParse(txtScore2.Text, out double score2) || !double.TryParse(txtScore3.Text, out double score3))
             {
-                MessageBox.Show("請輸入有效的分數1");
+                MessageBox.Show("請輸入有效的分數");
                 return;
             }
 
