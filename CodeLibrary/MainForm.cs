@@ -105,6 +105,20 @@ namespace CodeLibrary
             tsmi_Ex7.Click += (s, e) => Show(new UC_Ex_FileIO(),   "檔案讀寫");
             tsmi_Ex8.Click += (s, e) => Show(new UC_Ex_Json(),     "JSON 序列化");
 
+            // ── 練習庫 ──
+            var tsmi_P1 = new ToolStripMenuItem("📝 學生管理");
+            tsmi_P1.Click += (s, e) => Show(new UC_Practice_學生管理(), "學生管理");
+            tsmi_Practice.DropDownItems.Add(tsmi_P1);
+
+            //var tsmi_P2 = new ToolStripMenuItem("📝 庫存管理");
+            //tsmi_P2.Click += (s, e) => Show(new UC_Practice_庫存管理(), "庫存管理");
+            //tsmi_Practice.DropDownItems.Add(tsmi_P2);
+
+            // ── 精選區 ──
+            //var tsmi_B1 = new ToolStripMenuItem("⭐ 精選功能01");
+            //tsmi_B1.Click += (s, e) => Show(new UC_Best_01(), "精選功能01");
+            //tsmi_Best.DropDownItems.Add(tsmi_B1);
+
             tsmi_Auth1.Click += (s, e) => Show(new UC_Auth_Func1(), "功能1（全員）");
             tsmi_Auth2.Click += (s, e) => Show(new UC_Auth_Func2(), "功能2（全員）");
             tsmi_Auth3.Click += (s, e) => Show(new UC_Auth_Func3(), "功能3（Admin）");
