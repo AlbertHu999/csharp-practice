@@ -106,8 +106,8 @@ namespace CodeLibrary
             tsmi_Ex8.Click += (s, e) => Show(new UC_Ex_Json(),     "JSON 序列化");
 
             // ── 練習庫 ──
-            var tsmi_P1 = new ToolStripMenuItem("📝 學生管理");
-            tsmi_P1.Click += (s, e) => Show(new UC_Practice_學生管理(), "學生管理");
+            var tsmi_P1 = new ToolStripMenuItem("📝 成績等第計算器");
+            tsmi_P1.Click += (s, e) => Show(new UC_成績等第計算器(), "成績等第計算器");
             tsmi_Practice.DropDownItems.Add(tsmi_P1);
 
             //var tsmi_P2 = new ToolStripMenuItem("📝 庫存管理");

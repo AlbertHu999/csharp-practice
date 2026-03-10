@@ -13,7 +13,7 @@
     <Compile Update="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="UC_Practice_學生管理.cs">
+    <Compile Update="UC_成績等第計算器.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="產品價格庫存.cs">
