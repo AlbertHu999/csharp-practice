@@ -13,7 +13,13 @@
     <Compile Update="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="UC_多用途共用.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="UC_成績等第計算器.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UC_猜數字.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="產品價格庫存.cs">
